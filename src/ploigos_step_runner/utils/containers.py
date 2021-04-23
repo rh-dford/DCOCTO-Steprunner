@@ -10,7 +10,7 @@ from ploigos_step_runner.config.config_value import ConfigValue
 def container_registries_login(  #pylint: disable=too-many-branches
     registries,
     containers_config_auth_file=None,
-    containers_config_tls_verify=True):
+    containers_config_tls_verify=False):
     """Logs into one or more container registries.
 
     Requires one of the following to be installed to do the authentication:
