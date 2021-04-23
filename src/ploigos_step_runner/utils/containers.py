@@ -155,7 +155,7 @@ def container_registry_login(
     container_registry_uri,
     container_registry_username,
     container_registry_password,
-    container_registry_tls_verify=True,
+    container_registry_tls_verify=False,
     containers_config_auth_file=None
 ):
     """Performs the login for a single container registry.
