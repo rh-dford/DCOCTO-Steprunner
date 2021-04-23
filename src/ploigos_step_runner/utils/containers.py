@@ -117,7 +117,7 @@ def container_registries_login(  #pylint: disable=too-many-branches
                 container_registry_uri=registry_uri,
                 container_registry_username=registry_conf['username'],
                 container_registry_password=registry_conf['password'],
-                container_registry_tls_verify=registry_tls_verify,
+                container_registry_tls_verify=False,
                 containers_config_auth_file=containers_config_auth_file
             )
     elif isinstance(registries, list):
