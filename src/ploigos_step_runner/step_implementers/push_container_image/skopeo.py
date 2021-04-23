@@ -55,7 +55,7 @@ from ploigos_step_runner.utils.containers import container_registries_login
 
 DEFAULT_CONFIG = {
     'src-tls-verify': 'true',
-    'dest-tls-verify': 'true',
+    'dest-tls-verify': 'false',
     'containers-config-auth-file': os.path.join(Path.home(), '.skopeo-auth.json')
 }
 
